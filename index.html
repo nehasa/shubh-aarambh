@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Archana Chaudhary - Counselling & Rehabilitation Psychologist specializing in child development, behavioral interventions, and family-centered care.">
-    <meta name="keywords" content="psychologist, rehabilitation, counselling, child development, ADHD, ASD, learning disabilities, New Delhi">
+    <meta name="description" content="Archana Chaudhary - Counselling & Rehabilitation Psychologist specializing in child development, behavioral interventions, neuropsychological assessment, and family-centered care">
+    <meta name="keywords" content="psychology, counselling, rehabilitation, child development, autism, ADHD, learning disabilities, New Delhi, India">
     <title>Archana Chaudhary - Counselling & Rehabilitation Psychologist</title>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -19,40 +19,46 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <i class="fas fa-brain"></i>
-                <span>Archana Chaudhary</span>
+        <div class="container nav-container">
+            <div class="logo">
+                <h2><i class="fas fa-brain"></i> Archana Chaudhary</h2>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
-                <li><a href="#engagements" class="nav-link">Professional Work</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-                <li><a href="#" class="btn-whatsapp" onclick="openWhatsApp()"><i class="fab fa-whatsapp"></i> Book Appointment</a></li>
-            </ul>
             <div class="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#engagements">Professional Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">Archana Chaudhary</h1>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-certificate"></i>
+                    <span>Certified Professional</span>
+                </div>
+                <h1>Archana Chaudhary</h1>
                 <p class="hero-subtitle">Counselling & Rehabilitation Psychologist</p>
                 <p class="hero-credentials">Founding Member, ARPP India</p>
                 <p class="hero-tagline">"Helping Others Find Happiness"</p>
                 <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
-                    <a href="#" onclick="openWhatsApp()" class="btn btn-secondary"><i class="fab fa-whatsapp"></i> WhatsApp Booking</a>
+                    <a href="#contact" class="btn btn-primary">Book Appointment</a>
+                    <button onclick="openWhatsApp()" class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
                 </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://www.genspark.ai/api/files/s/CJdICX4J" alt="Archana Chaudhary" loading="lazy">
             </div>
         </div>
     </section>
@@ -61,20 +67,15 @@
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <div class="title-underline"></div>
+                <h2>About Me</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Compassionate, Evidence-Based Care</p>
             </div>
+
             <div class="about-content">
-                <div class="about-image">
-                    <img src="https://www.genspark.ai/api/files/s/CJdICX4J" alt="Archana Chaudhary" loading="lazy">
-                    <div class="about-badge">
-                        <i class="fas fa-award"></i>
-                        <span>Certified Professional</span>
-                    </div>
-                </div>
                 <div class="about-text">
-                    <h3>Compassionate, Evidence-Based Care</h3>
                     <p class="lead">I am a Rehabilitation Psychologist specializing in child development, behavioural interventions, neuropsychological assessment, and family-centred rehabilitation.</p>
+
                     <p>My work integrates scientific assessment, empathetic counselling, and structured therapeutic planning to help individuals achieve emotional, social, and cognitive well-being.</p>
 
                     <div class="approach-grid">
@@ -100,13 +101,13 @@
                         </div>
                     </div>
 
-                    <div class="experience-section">
+                    <div class="experience-box">
                         <h4><i class="fas fa-briefcase"></i> Professional Experience</h4>
                         <ul class="experience-list">
-                            <li><i class="fas fa-hospital"></i> AIIMS Delhi</li>
-                            <li><i class="fas fa-plane"></i> Indian Air Force</li>
-                            <li><i class="fas fa-hospital-user"></i> Bhagwan Mahavir Hospital</li>
-                            <li><i class="fas fa-graduation-cap"></i> NIPCCD Delhi</li>
+                            <li><i class="fas fa-check-circle"></i> AIIMS Delhi</li>
+                            <li><i class="fas fa-check-circle"></i> Indian Air Force</li>
+                            <li><i class="fas fa-check-circle"></i> Bhagwan Mahavir Hospital</li>
+                            <li><i class="fas fa-check-circle"></i> NIPCCD Delhi</li>
                         </ul>
                     </div>
                 </div>
@@ -118,10 +119,11 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Areas of Expertise</h2>
-                <div class="title-underline"></div>
-                <p class="section-description">Comprehensive psychological support across neurodevelopmental and behavioural domains</p>
+                <h2>Areas of Expertise</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Comprehensive Psychological Services</p>
             </div>
+
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
@@ -130,6 +132,7 @@
                     <h3>Autism Spectrum Disorders (ASD)</h3>
                     <p>Comprehensive assessment and intervention for individuals with autism</p>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-bolt"></i>
@@ -137,13 +140,15 @@
                     <h3>ADHD & Attention Difficulties</h3>
                     <p>Specialized support for attention and hyperactivity challenges</p>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-book-open"></i>
+                        <i class="fas fa-book-reader"></i>
                     </div>
                     <h3>Learning Disabilities & Dyslexia</h3>
                     <p>Educational assessments and intervention strategies</p>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-lightbulb"></i>
@@ -151,6 +156,7 @@
                     <h3>Intellectual Disabilities</h3>
                     <p>Developmental support and adaptive skills training</p>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-brain"></i>
@@ -158,6 +164,7 @@
                     <h3>Cerebral Palsy & Neuro Conditions</h3>
                     <p>Rehabilitation for neurological conditions and physical challenges</p>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-smile"></i>
@@ -165,13 +172,15 @@
                     <h3>Behavioral & Emotional Issues</h3>
                     <p>Managing emotional regulation and behavioral challenges</p>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-home"></i>
+                        <i class="fas fa-people-arrows"></i>
                     </div>
                     <h3>Family Counselling & Parent Training</h3>
                     <p>Supporting families through guidance and skill-building</p>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-clipboard-list"></i>
@@ -179,6 +188,7 @@
                     <h3>Neuropsychological Assessment</h3>
                     <p>Comprehensive cognitive and developmental evaluations</p>
                 </div>
+
                 <div class="service-card">
                     <div class="service-icon">
                         <i class="fas fa-user-graduate"></i>
@@ -194,31 +204,32 @@
     <section id="engagements" class="engagements">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Professional Engagements</h2>
-                <div class="title-underline"></div>
-                <p class="section-description">Training, workshops, and community impact across diverse settings</p>
+                <h2>Professional Engagements</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Workshops, Conferences, and Community Impact</p>
             </div>
 
+            <!-- Workshops & Conferences -->
             <div class="engagement-subsection">
-                <h3 class="subsection-title">Workshops & Conferences</h3>
-                <div class="gallery-grid">
-                    <div class="gallery-item">
+                <h3 class="subsection-title"><i class="fas fa-chalkboard-teacher"></i> Workshops & Conferences</h3>
+                <div class="engagement-grid">
+                    <div class="engagement-card">
                         <img src="https://www.genspark.ai/api/files/s/B4ekygLY" alt="National Health and Family Welfare" loading="lazy">
-                        <div class="gallery-caption">
+                        <div class="engagement-content">
                             <h4>National Health & Family Welfare</h4>
                             <p>Clinician training and capacity building sessions</p>
                         </div>
                     </div>
-                    <div class="gallery-item">
+                    <div class="engagement-card">
                         <img src="https://www.genspark.ai/api/files/s/jexamS8f" alt="Panel Discussion" loading="lazy">
-                        <div class="gallery-caption">
+                        <div class="engagement-content">
                             <h4>Expert Panel Discussions</h4>
                             <p>Mental health, rehabilitation, and inclusive education</p>
                         </div>
                     </div>
-                    <div class="gallery-item">
+                    <div class="engagement-card">
                         <img src="https://www.genspark.ai/api/files/s/uL6oHktf" alt="Conference Presentation" loading="lazy">
-                        <div class="gallery-caption">
+                        <div class="engagement-content">
                             <h4>Conference Presentations</h4>
                             <p>Large-scale professional audience engagements</p>
                         </div>
@@ -226,26 +237,27 @@
                 </div>
             </div>
 
+            <!-- Training & Community -->
             <div class="engagement-subsection">
-                <h3 class="subsection-title">Training & Community Work</h3>
-                <div class="gallery-grid">
-                    <div class="gallery-item">
+                <h3 class="subsection-title"><i class="fas fa-hands-helping"></i> Training & Community Work</h3>
+                <div class="engagement-grid">
+                    <div class="engagement-card">
                         <img src="https://www.genspark.ai/api/files/s/Dgl1hBPS" alt="Classroom Training" loading="lazy">
-                        <div class="gallery-caption">
+                        <div class="engagement-content">
                             <h4>Educational Training</h4>
                             <p>Classroom sessions for students and professionals</p>
                         </div>
                     </div>
-                    <div class="gallery-item">
+                    <div class="engagement-card">
                         <img src="https://www.genspark.ai/api/files/s/AoQKNAcq" alt="Group Training" loading="lazy">
-                        <div class="gallery-caption">
+                        <div class="engagement-content">
                             <h4>Group Workshops</h4>
                             <p>Training for parents, educators, and community leaders</p>
                         </div>
                     </div>
-                    <div class="gallery-item">
+                    <div class="engagement-card">
                         <img src="https://www.genspark.ai/api/files/s/mkv8k1b2" alt="Audience Presentation" loading="lazy">
-                        <div class="gallery-caption">
+                        <div class="engagement-content">
                             <h4>Public Speaking</h4>
                             <p>Keynote sessions for diverse audiences</p>
                         </div>
@@ -253,26 +265,27 @@
                 </div>
             </div>
 
+            <!-- Certifications & Recognition -->
             <div class="engagement-subsection">
-                <h3 class="subsection-title">Certifications & Recognition</h3>
-                <div class="gallery-grid">
-                    <div class="gallery-item">
+                <h3 class="subsection-title"><i class="fas fa-award"></i> Certifications & Recognition</h3>
+                <div class="engagement-grid">
+                    <div class="engagement-card">
                         <img src="https://www.genspark.ai/api/files/s/kPewe2FE" alt="ANCSAP 2023" loading="lazy">
-                        <div class="gallery-caption">
+                        <div class="engagement-content">
                             <h4>ANCSAP 2023 Conference</h4>
                             <p>Speaker at national conference</p>
                         </div>
                     </div>
-                    <div class="gallery-item">
+                    <div class="engagement-card">
                         <img src="https://www.genspark.ai/api/files/s/bzB94q1o" alt="Certificate Recognition" loading="lazy">
-                        <div class="gallery-caption">
+                        <div class="engagement-content">
                             <h4>Professional Recognition</h4>
                             <p>Certificates of appreciation for clinical excellence</p>
                         </div>
                     </div>
-                    <div class="gallery-item">
+                    <div class="engagement-card">
                         <img src="https://www.genspark.ai/api/files/s/kgSrSxmZ" alt="Ayush Rehabilitation Centre" loading="lazy">
-                        <div class="gallery-caption">
+                        <div class="engagement-content">
                             <h4>Ayush Rehabilitation Centre</h4>
                             <p>Certificate presentation and community program</p>
                         </div>
@@ -280,18 +293,19 @@
                 </div>
             </div>
 
+            <!-- Community Impact -->
             <div class="engagement-subsection">
-                <h3 class="subsection-title">Community Impact</h3>
-                <div class="impact-content">
-                    <div class="impact-text">
-                        <p>Building mental health awareness and skills across diverse sectors:</p>
-                        <ul class="impact-list">
-                            <li><i class="fas fa-chalkboard-teacher"></i> <strong>Educators:</strong> Inclusive classroom strategies, behavior support, and IEP collaboration</li>
-                            <li><i class="fas fa-shield-alt"></i> <strong>Law Enforcement:</strong> De-escalation, mental health first response, and community liaison</li>
-                            <li><i class="fas fa-users"></i> <strong>Community Organizations:</strong> Psychoeducation, parent training, and early identification</li>
+                <h3 class="subsection-title"><i class="fas fa-globe"></i> Community Impact</h3>
+                <div class="community-content">
+                    <div class="community-text">
+                        <p><strong>Building mental health awareness and skills across diverse sectors:</strong></p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <strong>Educators:</strong> Inclusive classroom strategies, behavior support, and IEP collaboration</li>
+                            <li><i class="fas fa-check"></i> <strong>Law Enforcement:</strong> De-escalation, mental health first response, and community liaison</li>
+                            <li><i class="fas fa-check"></i> <strong>Community Organizations:</strong> Psychoeducation, parent training, and early identification</li>
                         </ul>
                     </div>
-                    <div class="impact-gallery">
+                    <div class="community-images">
                         <img src="https://www.genspark.ai/api/files/s/fFs4q07S" alt="Law Enforcement Training" loading="lazy">
                         <img src="https://www.genspark.ai/api/files/s/J4UMAcFE" alt="Community Event" loading="lazy">
                         <img src="https://www.genspark.ai/api/files/s/p0VBh9xw" alt="Team Collaboration" loading="lazy">
@@ -305,75 +319,70 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Get in Touch</h2>
-                <div class="title-underline"></div>
-                <p class="section-description">Let's work together to support emotional, social, and cognitive well-being</p>
+                <h2>Get in Touch</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Book an Appointment or Send a Message</p>
             </div>
 
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <div class="contact-item">
+                    <div class="info-card">
                         <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>Phone</h4>
-                            <p><a href="tel:+919873043072">+91 9873043072</a></p>
-                            <p><a href="tel:+919711853072">+91 9711853072</a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>Email</h4>
-                            <p><a href="/cdn-cgi/l/email-protection#94e7fce1f6fcf5f5e6f5f9f6fce4e7edfdfaf0fdf5d4f3f9f5fdf8baf7fbf9"><span class="__cf_email__" data-cfemail="413229342329202033202c2329313238282f25282001262c20282d6f222e2c">[email&#160;protected]</span></a></p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>Location</h4>
-                            <p>New Delhi, India</p>
-                            <p class="text-small">Available for on-site and virtual sessions</p>
-                        </div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+919873043072">+91 9873043072</a></p>
+                        <p><a href="tel:+919711853072">+91 9711853072</a></p>
                     </div>
 
-                    <div class="whatsapp-booking">
-                        <h4><i class="fab fa-whatsapp"></i> Quick WhatsApp Booking</h4>
-                        <p>Choose your preferred contact number:</p>
-                        <div class="whatsapp-buttons">
-                            <a href="https://wa.me/919873043072?text=Hello%20Dr.%20Archana%20Chaudhary,%0A%0AI%20would%20like%20to%20book%20an%20appointment%20for%20psychological%20consultation.%0A%0AName:%20%0APreferred%20Date:%20%0APreferred%20Time:%20%0AConcern:%20%0A%0AThank%20you!" 
-                               class="btn-whatsapp-contact" target="_blank">
-                                <i class="fab fa-whatsapp"></i> WhatsApp: 9873043072
-                            </a>
-                            <a href="https://wa.me/919711853072?text=Hello%20Dr.%20Archana%20Chaudhary,%0A%0AI%20would%20like%20to%20book%20an%20appointment%20for%20psychological%20consultation.%0A%0AName:%20%0APreferred%20Date:%20%0APreferred%20Time:%20%0AConcern:%20%0A%0AThank%20you!" 
-                               class="btn-whatsapp-contact" target="_blank">
-                                <i class="fab fa-whatsapp"></i> WhatsApp: 9711853072
-                            </a>
-                        </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="/cdn-cgi/l/email-protection#36455e43545e575744575b545e46454f5f58525f5776515b575f5a1855595b"><span class="__cf_email__" data-cfemail="ef9c879a8d878e8e9d8e828d879f9c9686818b868eaf88828e8683c18c8082">[email&#160;protected]</span></a></p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>New Delhi, India</p>
+                    </div>
+
+                    <div class="whatsapp-box">
+                        <h3><i class="fab fa-whatsapp"></i> Quick WhatsApp Booking</h3>
+                        <p>Click below to send a pre-filled appointment request</p>
+                        <button onclick="openWhatsApp()" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Book via WhatsApp
+                        </button>
                     </div>
                 </div>
 
                 <div class="contact-form-wrapper">
                     <h3>Send a Message</h3>
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+
+                    <!-- Success/Error Messages -->
+                    <div id="form-messages" class="form-messages" style="display: none;"></div>
+
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form" id="contactForm">
                         <input type="hidden" name="form-name" value="contact">
-                        <p class="hidden">
+                        <p class="hidden" style="display:none;">
                             <label>Don't fill this out if you're human: <input name="bot-field" /></label>
                         </p>
 
                         <div class="form-group">
                             <label for="name">Full Name *</label>
                             <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="name-error"></span>
                         </div>
 
                         <div class="form-group">
                             <label for="email">Email Address *</label>
                             <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
                         </div>
 
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+                            <span class="error-message" id="phone-error"></span>
+                            <small>Enter 10-digit mobile number</small>
                         </div>
 
                         <div class="form-group">
@@ -401,10 +410,14 @@
                         <div class="form-group">
                             <label for="message">Message *</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="message-error"></span>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-submit">
-                            <i class="fas fa-paper-plane"></i> Send Message
+                        <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i> Sending...
+                            </span>
                         </button>
                     </form>
                 </div>
@@ -416,36 +429,35 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Archana Chaudhary</h4>
+                <div class="footer-about">
+                    <h3><i class="fas fa-brain"></i> Archana Chaudhary</h3>
                     <p>Counselling & Rehabilitation Psychologist</p>
                     <p>Founding Member, ARPP India</p>
+                    <p class="footer-tagline">"Helping Others Find Happiness"</p>
                 </div>
-                <div class="footer-section">
+
+                <div class="footer-links">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Services</a></li>
+                        <li><a href="#engagements">Professional Work</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
+
+                <div class="footer-contact">
                     <h4>Contact</h4>
                     <p><i class="fas fa-phone"></i> +91 9873043072</p>
                     <p><i class="fas fa-phone"></i> +91 9711853072</p>
-                    <p><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="becdd6cbdcd6dfdfccdfd3dcd6cecdc7d7d0dad7dffed9d3dfd7d290ddd1d3">[email&#160;protected]</a></p>
-                </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <p>Assessments • Therapy • Parent Training</p>
-                    <p>School Collaboration • Workshops</p>
-                    <p>Individual & Family Counselling</p>
+                    <p><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6b18031e09030a0a190a0609031b181202050f020a2b0c060a020745080406">[email&#160;protected]</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> New Delhi, India</p>
                 </div>
             </div>
+
             <div class="footer-bottom">
                 <p>&copy; 2026 Archana Chaudhary. All rights reserved.</p>
-                <p class="tagline">"Helping Others Find Happiness"</p>
             </div>
         </div>
     </footer>
@@ -489,7 +501,7 @@
 
         // WhatsApp booking function
         function openWhatsApp() {
-            const message = encodeURIComponent("Hello Dr. Archana Chaudhary,\n\nI would like to book an appointment for psychological consultation.\n\nName: \nPreferred Date: \nPreferred Time: \nConcern: \n\nThank you!");
+            const message = encodeURIComponent("Hi Archana, I would like to book an appointment for psychological counseling.\n\nName: \nPreferred Date: \nPreferred Time: \nService Required: \n\nThank you!");
             const phone1 = "919873043072";
             const phone2 = "919711853072";
 
@@ -500,14 +512,115 @@
             window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
         }
 
-        // Form submission success message
-        const form = document.querySelector('.contact-form');
-        if (form) {
-            form.addEventListener('submit', (e) => {
-                // Form will be handled by Netlify
-                console.log('Form submitted');
-            });
+        // ===== IMPROVED FORM HANDLING =====
+        const contactForm = document.getElementById('contactForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const btnText = submitBtn.querySelector('.btn-text');
+        const btnLoading = submitBtn.querySelector('.btn-loading');
+        const formMessages = document.getElementById('form-messages');
+
+        // Form validation
+        function validateForm() {
+            let isValid = true;
+
+            // Clear previous errors
+            document.querySelectorAll('.error-message').forEach(err => err.textContent = '');
+
+            // Name validation
+            const name = document.getElementById('name');
+            if (name.value.trim().length < 2) {
+                document.getElementById('name-error').textContent = 'Please enter a valid name';
+                isValid = false;
+            }
+
+            // Email validation
+            const email = document.getElementById('email');
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email.value)) {
+                document.getElementById('email-error').textContent = 'Please enter a valid email address';
+                isValid = false;
+            }
+
+            // Phone validation
+            const phone = document.getElementById('phone');
+            const phoneRegex = /^[0-9]{10}$/;
+            if (!phoneRegex.test(phone.value.replace(/\s/g, ''))) {
+                document.getElementById('phone-error').textContent = 'Please enter a valid 10-digit phone number';
+                isValid = false;
+            }
+
+            // Message validation
+            const message = document.getElementById('message');
+            if (message.value.trim().length < 10) {
+                document.getElementById('message-error').textContent = 'Please enter a message (at least 10 characters)';
+                isValid = false;
+            }
+
+            return isValid;
         }
+
+        // Show message function
+        function showMessage(message, type) {
+            formMessages.textContent = message;
+            formMessages.className = `form-messages ${type}`;
+            formMessages.style.display = 'block';
+
+            // Auto-hide after 5 seconds
+            setTimeout(() => {
+                formMessages.style.display = 'none';
+            }, 5000);
+        }
+
+        // Form submission handler
+        contactForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            // Validate form
+            if (!validateForm()) {
+                showMessage('Please fix the errors above', 'error');
+                return;
+            }
+
+            // Show loading state
+            submitBtn.disabled = true;
+            btnText.style.display = 'none';
+            btnLoading.style.display = 'inline-block';
+
+            try {
+                // Submit form data
+                const formData = new FormData(contactForm);
+
+                const response = await fetch('/', {
+                    method: 'POST',
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    body: new URLSearchParams(formData).toString()
+                });
+
+                if (response.ok) {
+                    // Success
+                    showMessage('✓ Thank you! Your message has been sent successfully. We will get back to you soon.', 'success');
+                    contactForm.reset();
+                } else {
+                    throw new Error('Form submission failed');
+                }
+
+            } catch (error) {
+                // Error
+                showMessage('✗ Sorry, there was an error sending your message. Please try calling or using WhatsApp instead.', 'error');
+                console.error('Form submission error:', error);
+            } finally {
+                // Reset button state
+                submitBtn.disabled = false;
+                btnText.style.display = 'inline-block';
+                btnLoading.style.display = 'none';
+            }
+        });
+
+        // Real-time validation feedback
+        document.getElementById('phone').addEventListener('input', function(e) {
+            // Remove non-numeric characters
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
 
         // Lazy loading for images
         if ('IntersectionObserver' in window) {
@@ -527,23 +640,12 @@
             });
         }
 
-        // Animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-in');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.service-card, .gallery-item, .approach-item').forEach(el => {
-            observer.observe(el);
-        });
+        // Set minimum date for date picker to today
+        const dateInput = document.getElementById('date');
+        if (dateInput) {
+            const today = new Date().toISOString().split('T')[0];
+            dateInput.setAttribute('min', today);
+        }
     </script>
 </body>
 </html>
